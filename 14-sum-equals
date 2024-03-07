@@ -1,7 +1,9 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
-    If(a + b = c){
-        return true;
+    Integer sum = a + b; 
+    If(sum == b){
+        return true; 
     } else {
         return false; 
     }
+
 }
