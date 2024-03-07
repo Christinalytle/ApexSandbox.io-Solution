@@ -1,4 +1,4 @@
 public Integer diff(Integer a, Integer b) {
     Integer difference = a - b; 
-    return Match.abs(difference); 
+    return Math.abs(difference); 
 }
