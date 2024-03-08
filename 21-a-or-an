@@ -1,5 +1,7 @@
 public String aOrAn(String word) {
     if(word.startsWith('i')){
         return 'an' + word; 
+    } else {
+        return 'a' + word; 
     }
 }
