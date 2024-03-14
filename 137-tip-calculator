@@ -1,5 +1,4 @@
-public Decimal computeTip(Decimal total, Integer percent) {
-    Decimal percentExchange = percent / 100; 
-    Decimal tip = percentExchange * total; 
+public Decimal computeTip(Decimal total, Integer percent) { 
+    Decimal tip = (percent * total)/100; 
     return percentExchange; 
 }
